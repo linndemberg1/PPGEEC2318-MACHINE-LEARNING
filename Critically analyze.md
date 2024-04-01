@@ -1,0 +1,49 @@
+Análise crítida do artigo: Sobre o impacto social dos modelos de fundações abertas
+
+1. Aspectos positivos:
+Os modelos de fundação aberta possibilitam uma maior personalização e uma inspeção mais profunda de como eles operam, oferecendo 
+mais opções aos desenvolvedores por uma ampla quantidade de opções de modelos de fundação.
+Devido ao crescimento da inovação e aceleração da ciência, esses modelos tem sido transparentes, permitindo uma melhor investigação
+sobre os seus efeitos, promovendo  a concorrência e a inovação. Além disso, tem proporcionado uma melhora na investigação científica,
+na reprodutibilidade e na transparência. E os dados  abertos permitem melhorias/aperfeiçoamento por outros desenvolvedores que tem acesso,
+deixando fedbacks sobre seu uso, erros de desenvolvimento e propostas de melhorias e até mesmo soluções práticas por quem
+acessou ao material.
+Esses modelos de fundação aberta promovem a pesquisa colaborativa através do acesso aberto ao conhecimento, 
+compartilhamento de dados, colaboração entre instituições, financiamento colaborativo e desenvolvimento de padrões comuns 
+na comunidade científica. Essas iniciativas facilitam a troca eficiente de conhecimento, incentivam a transparência e promovem 
+a colaboração entre pesquisadores de diferentes áreas do conhecimentos e regiões do mundo.
+Facilitam o acesso a recursos e conhecimentos, promovendo a colaboração e o compartilhamento de ideias, desenvolvelvimento de padrões
+abertos, busca de financiamento colaborativo e diversificado, e fomentando uma cultura de compartilhamento e aprendizado contínuo. 
+Por fim, promovem a democratização do acesso, trazendo inovação ao garantir um acesso igualitário do conhecimento.
+
+
+2. Aspectos negativos:
+É importante salientar os perigos associados à biossegurança, cibersegurança e propagação de informações falsas. O uso indevido deliberado,
+ como plágio, disseminação de falsidades e atividades fraudulentas, também merece atenção. Ferramentas digitais podem ser empregadas
+para modificar imagens de indivíduos sem consentimento, de maneira sexualmente explícita, resultando em consequências graves como chantagem,
+ além de danos emocionais e psicológicos para as vítimas. Tais riscos emergem em modelos de código aberto quando os desenvolvedores
+renunciam ao controle exclusivo sobre a aplicação do modelo após a liberação dos seus parâmetros. Restrições impostas ao uso subsequente do
+ modelo são desafiadoras de se fazer cumprir e podem ser facilmente desconsideradas por indivíduos com intenções maliciosas.
+
+3. Opnião pessoal:
+Acelerar a pesquisa científica é crucial, pois estimula o avanço qualitativo de contribuições deixadas em modelos de código aberto
+pelos desenvolvedores. A clareza quanto aos direitos autorais, incluindo trabalho, privacidade, práticas de utilização e autoria, é vital
+ em qualquer obra.
+ O emprego de inteligência artificial para proteger esses modelos é benéfico, evitando o uso impróprio que possa prejudicar o autor
+e o público. É essencial enfatizar as possíveis restrições no uso de modelos de código aberto, como limitações de acesso (exigindo, por
+exemplo, que o usuário seja maior de idade) e propósitos específicos (proibindo o uso em competição com o desenvolvedor do modelo). Ademais,
+o nível de acesso pode variar com o tempo, desde o lançamento gradual para aumentar a disponibilidade até a descontinuação para
+restringi-lo.
+É essencial estabelecer expectativas claras sobre o uso de dados para prevenir situações adversas. Antecipar como a eficiência e os custos
+associados à operação dos modelos irão evoluir pode influenciar a avaliação do risco e da escalabilidade do uso indevido. A regulamentação
+dos criadores de modelos de código aberto é necessária, e embora já existam entidades reguladoras, é preciso reforçar a governança sobre
+a utilidade desses modelos.
+Os modelos de código aberto apresentam riscos de uso indevido devido à ambiguidade nas expectativas de segurança. Especificamente, a divisão
+ de responsabilidades de segurança entre desenvolvedores e usuários de modelos de código aberto não é bem definida e carece de padrões
+estabelecidos. Portanto, os desenvolvedores de modelos de código aberto devem ser transparentes sobre as práticas de IA responsáveis que
+aplicam e as que recomendam ou transferem para desenvolvedores ou implementadores. Quando adquirem modelos de código aberto, os
+usuários devem considerar quais práticas de IA responsáveis já foram implementadas e sua eficácia, e então implementar ou negociar
+ práticas adicionais de IA responsáveis. Isso asseguraria que as práticas de IA responsáveis não sejam negligenciadas à medida que os
+desenvolvedores utilizam modelos de código aberto de fornecedores.
+
+
