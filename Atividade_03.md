@@ -5,7 +5,6 @@ Parte 01: Análise análise aprofundada do capítulo 0 (zero) do do livro do liv
 Principles of Deep Learning Theory"
 
 I) Principais Conceitos:
-
 	O capítulo fala sobre o aprendizado profundo utilizando redes neurais artificiais como um modelo subjacente para IA, neste modelo as redes são treinadas com dados rotulados, ajustando os pesos das conexões entre neurônios para minimizar a perda. Ele se inspira no modelo de redes neurais biológicas, mas é bem mais pensada. As redes neurais artificiais são estruturas matemáticas compostas por camadas de neurônios interconectados. Cada neurônio recebe entradas, realiza operações matemáticas nelas e produz uma saída que é transmitida para os neurônios da próxima camada. As redes neurais profundas utilizam os modelos de aprendizagem profunda onde são treinados em dados do mundo real e aprendem como resolver problemas, aprendem representações úteis do mundo, pois possuem muitos neurônios organizados em paralelo em camadas computacionais sequenciais. Assim, o aprendizado profundo aproveita as redes neurais para realizar tarefas complexas de forma eficaz.
  Um conceito abordado é a aprendizagem por representação, ela permite que os modelos aprendam automaticamente características relevantes e abstratas dos dados, transformando os dados em formas cada vez mais refinadas.
 Uma rede neural normal é constituída por inúmeras unidades computacionais que são denominadas neurônios, esses são organizados paralelamente em camadas. O diferencia uma rede normal normal de uma rede neural profunda é o fato que na profunda os neurônios são organizados por múltiplas camadas em sequência.
@@ -43,18 +42,24 @@ Tratamento de valores em falta: Muito dos valores  de dados estão e nem todos o
 Para lidar com valores em falta existem duas formas: a imputação que serve para preencher os valores em falta com determinados valores e a eliminação que tem a finalidade de remover os valores em falta. 
 
 Escalonamento: 
+
 Este é um processo que se faz necessário antes de inserir característica nos modelos, escalonando-os para que tenham intervalos semelhantes, processo chamado por escalonamento de características. Isso resulta num aumento de desempenho do modelo, evitando que o modelo faça previsões sem sentido. Embora possa produzir ganhos de desempenho em muitos casos, não funciona em todos os casos. Além disso, é uma fonte comum de fuga de dados e muitas vezes requer estatísticas globais, sendo necessário olhar para a totalidade ou para um subconjunto de dados de treino para calcular o seu mínimo, máximo ou média.
 Discretização: Também conhecido como quantização ou binning, este é um processo de transformar uma caraterística contínua numa caraterística discreta. Ela foca em reduzir a complexidade dos dados, tornando-os mais fáceis de interpretar. Cada valor ou variável neste processo é alocado a um intervalo correspondente. A discretização é útil quando lidamos com dados contínuos difíceis de analisar.
 
 Codificação de características categóricas:
+
 Para quem não trabalha com dados em produção as categorias são estáticas, o que infere que as categorias não sofre alterações ao longo do tempo, e isso se encaixa para muitas categorias e seu tratamento é bem simples.. Mas na produção, as categorias mudam. Assim, a codificação de características categóricas permite que algoritmos de ML trabalhem com variáveis categóricas, transformando-as em representações numéricas adequadas para resolver os problemas em ML.
 
  Cruzamento de características:
+ 
  Esta é uma técnica útil para modelar as relações não lineares entre características. Ela permite combinar duas ou mais características para gerar novas características. Sendo essencial para modelos que não podem aprender ou são ruins em aprender relações não lineares, como regressão linear, regressão logística e modelos baseados em árvore, pois ajuda a modelar relações não lineares entre variáveis. Não é muito importante em redes neurais, mas pode ser utilizado pois o cruzamento explícito de características ajuda as redes neurais a aprender relações não lineares mais rapidamente.Um ponto negativo do cruzamento de características é o fato de poder aumentar o espaço das características.
 
-Embeddings posicionais: O Embeddings é definido como sendo um vetor que representa um dado. Um espaço de embeddings, seria então um conjunto de embeddings geradas pelo mesmo algoritmo para um tipo de dados. O embeddings de palavras é um dos mais utilizados, em que cada palavra pode ser representada por um vetor. Os embeddings posicionais  são definidos em Discretos que representam objetos em categorias específicas, como a categoria de um filme (comédia, drama, ação); e Contínuos que representam objetos em um espaço contínuo, como vetores que capturam características de palavras em processamento de linguagem natural (NLP).
+Embeddings posicionais:
+
+O Embeddings é definido como sendo um vetor que representa um dado. Um espaço de embeddings, seria então um conjunto de embeddings geradas pelo mesmo algoritmo para um tipo de dados. O embeddings de palavras é um dos mais utilizados, em que cada palavra pode ser representada por um vetor. Os embeddings posicionais  são definidos em Discretos que representam objetos em categorias específicas, como a categoria de um filme (comédia, drama, ação); e Contínuos que representam objetos em um espaço contínuo, como vetores que capturam características de palavras em processamento de linguagem natural (NLP).
 
 Fuga de dados: 
+
 Ocorre quando uma forma do rótulo “vaza” para o conjunto de características utilizadas para fazer previsões, e essa mesma informação não está disponível durante a inferência. Essa fuga é um desafio, pois na maioria dos casos a fuga não é esperada. Sendo muito perigosa, pois pode fazer com que os modelos falhem, mesmo após avaliações e testes. Dentre as causas vale destacar: 
 - Dividir os dados correlacionados com o tempo de forma aleatória em vez de os dividir por tempo;
 - Escalonamento antes da divisão;
@@ -70,6 +75,7 @@ Ocorre quando uma forma do rótulo “vaza” para o conjunto de característica
 - Ter muito cuidado sempre que olhar para a divisão de teste, pois se utilizar a divisão de teste de qualquer outra forma que não seja para reportar o desempenho final de um modelo, arrisca-se a deixar escapar informação do futuro para o seu processo de treino.
   
 Características de engenharia:
+
 Neste ponto, é preciso entender que mais características nem sempre significam um melhor desempenho do modelo, pois ter demasiadas características pode ser ruim tanto durante o treino como ao serviço do modelo. Neste sentido, é preciso destacar as seguintes razões:
 - Quanto mais funcionalidades tiver, mais oportunidades existem para a fuga de dados.
 - Demasiadas características podem causar sobreajuste.
