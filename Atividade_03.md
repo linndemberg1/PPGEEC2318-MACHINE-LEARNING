@@ -19,6 +19,7 @@ Já o aprendizado de representação,  refere-se ao processo pelo qual uma rede 
 II) Implicações Teóricas: 
 
 Esses conceitos abordados são muito importantes no entendimento de redes neurais profundas, pois tratam de questões que podem acontecer no trabalho com redes neurais. Alterações na rede de neurônios, no que se refere sua largura e sua profundidade, trouxeram o entendimento de situações que podem acontecer e de caminhos problemáticos, como é o caso dos limites de largura infinita e a importância de calculá-los. Neste sentido, trazer questões de caminhos percorridos anteriormente para que não se repitam os mesmos erros, é eficaz, pois conduz ao usuário qual via é mais prudente seguir.  As maneiras de fazer a rede neural crescer de tamanho é um exemplo concreto disso.
+
 Aprender como treinar de forma eficaz é algo discutido ao longo do capítulo. Os problemas relatados ao longo do texto são de cenários realistas de aprendizagem profunda, onde o algoritmo de aprendizagem tem que lidar com os ajustes nos parâmetros (treinamento). Os problemas encontrados, como os que conduziram à definição do algoritmo de aprendizado ser iterativo, auxiliando no entendimento do desafio de lidar com as redes neurais profundas, mas elencam algumas dependências, como os os parâmetros treinados dependerem de uma forma muito complicada de todas as quantidades na inicialização.
 
  
@@ -26,6 +27,7 @@ Aprender como treinar de forma eficaz é algo discutido ao longo do capítulo. O
 III) Avaliação Crítica: 
 
 A falta de resolução dos problemas relacionados à representação da série de Taylor para estudo da função treinada deixam muitas limitações no uso de redes neurais profundas. E o trabalho abordado neste capítulo se fecha nestas limitações, sendo um ponto negativo pois ignora a busca de outras soluções para o problema.
+
 A explicação sobre aspectos essenciais de uma arquitetura de rede neural, sua largura e sua profundidade, são aspectos positivos, definem bem as limitações no texto e explica como lidar com essas limitações.
 
 Parte  02: Resumo detalhado do Capítulo 5 do Livro "Designing
