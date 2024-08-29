@@ -12,6 +12,7 @@ The presentation slides can be accessed via the following [link](https://github.
 The codes used in the presentation can be accessed via the following [link](https://github.com/linndemberg1/PPGEEC2318-MACHINE-LEARNING/blob/aacf8c28089388984ef0b1f5f5c51312e19543bc/Chapter9_PartII.ipynb).
 
 # Authors
+- [Antônio Lemos](https://github.com/AntonioMuniz1)
 -  [José Andrade](https://github.com/linndemberg1)
 -  [Maria Silva](https://github.com/MariaGuiaTorres)
 
