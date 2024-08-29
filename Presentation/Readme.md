@@ -6,7 +6,7 @@ Slides apresentados como parte da atividade final da Disciplina PPGEEC2318 - Apr
 
 # Apresentação
 
-Os slides da apresentação podem ser acessado pelo seguinte [link](https://github.com/linndemberg1/PPGEEC2318-MACHINE-LEARNING/blob/aacf8c28089388984ef0b1f5f5c51312e19543bc/Chapter9_PartII.ipynb).
+Os slides da apresentação podem ser acessado pelo seguinte [link](https://github.com/linndemberg1/PPGEEC2318-MACHINE-LEARNING/blob/0bf405077e77f22b225aca113f445f2cffdb795a/Presentation/Presentation.pdf).
 
 # Código completo
 
